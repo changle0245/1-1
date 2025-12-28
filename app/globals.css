@@ -1,0 +1,51 @@
+:root {
+  --gold: #D4AF37;
+  --gold-light: #F4E4BC;
+  --black: #0a0a0a;
+  --dark: #141414;
+  --dark-card: #1a1a1a;
+  --dark-border: #2a2a2a;
+  --white: #fff;
+  --gray: #888;
+  --success: #4CAF50;
+  --error: #f44336;
+  --blue: #2196F3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background: var(--black);
+  color: var(--white);
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--gold);
+}
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Arabic RTL support */
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Noto Sans', sans-serif;
+}
