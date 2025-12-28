@@ -1,8 +1,0 @@
-{
-  "framework": "nextjs",
-  "functions": {
-    "app/api/translate/route.ts": {
-      "maxDuration": 300
-    }
-  }
-}
